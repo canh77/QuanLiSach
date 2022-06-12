@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edMaPM"
+        android:hint="Mã phiếu mượn"
+        android:textColor="#000"
+        android:textColorHint="#F40418"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20sp"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20sp"
+        android:id="@+id/spMaTV"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20sp"
+        android:id="@+id/spMaSach"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày:"
+        android:id="@+id/tvNgay"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiền thuê:"
+        android:id="@+id/tvTienThue"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20sp"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đã trả sách:"
+        android:id="@+id/chkTraSach"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSavePM"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:backgroundTint="#8C8E5B"
+            android:layout_marginHorizontal="20dp"
+            android:drawableStart="@drawable/ic_save"
+            android:layout_weight="1"
+            android:text="Lưu" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCancelPM"
+            android:textStyle="bold"
+            android:backgroundTint="#8C8E5B"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="20dp"
+            android:drawableStart="@drawable/ic_cancel"
+            android:layout_weight="1"
+            android:text="Hủy" />
+
+    </LinearLayout>
+
+</LinearLayout>
